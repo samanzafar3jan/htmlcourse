@@ -6,3 +6,13 @@ body{
     background-color: #333;
     color: whitesmoke;
 }
+a{
+    color:aliceblue;
+}
+a:visited{
+    color: lightgray;
+}
+/* it changes the color when we take cursor on it  */
+a:hover,a:active{
+    color: #eee;
+}

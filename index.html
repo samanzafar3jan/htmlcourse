@@ -9,8 +9,27 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <header>
     <h1>Hello world!</h1>
     <hr>  
+    
+    <!-- nav represent  section of other page or within the page  -->
+    <nav aria-label="primary-navigation">
+        <ul>
+            <li>
+                <a href="#HTML"> Learning HTML</a>
+            </li>
+            <figure>
+            <!-- the text written in alt will write in place of image and title would pop up on the image, to imporve the performance set loading=lazy on the page that is not shown on the front page  -->
+            <img src="01_lesson/images/html.png" alt="HTML logo" title=" i am learning htnl"  loading="lazy">
+            <!-- figure give the default indentation and figcaption is the caption under the image  -->
+            <figcaption>
+                HTML LOGO
+            </figcaption>
+        </figure>
+        </ul>
+        
+    </nav>
     <!-- unordered List       -->
     <ul>
     <li><h2>I'm ready to learn HTMl</h2>
@@ -21,6 +40,11 @@
      <!-- there is lign sets according to waidth of page -->
      <hr>
      <li>
+    </header>
+    <hr>
+    <main>
+        <!-- section -->
+        <section id="HTMl" >
      <h2>I'm ready to learn HTMl</h2></li>
     <p>let me tell u how i...</p>
     </ul>
@@ -35,7 +59,7 @@
          <!-- here we bold a sentence also add the less than ,greater than,abbreviation -->
         <li><br>--  <strong>&lt;&lt;i use resources from <abbr title=""> <a href="https://www.youtube.com/watch?v=kUMe1FH4CHE">MDN</a>
             </abbr>.&gt;&gt;</strong></li>  
-             
+        </section>   
      </p>
     </ol>
     <hr>
@@ -46,9 +70,22 @@
     <dt>South Pole</dt>
     <dd>This is also <em>cold!</em></dd>
     </dl>
+</main>
     <hr>
     <!-- refrence to another to style sheet anchor tag -->
-    <a href="about.html">Saman Zafar html</a>
+    <ul>
+        <li><a href="about.html">Saman Zafar</a></li>
+    <!-- open google in new tab -->
+        <li> open <a href="https://www.google.com/" target="_blank">Google in new tab</a></li>
+        <!-- show the summary then on the click it shows details  -->
+       <aside>
+        <details>
+            <!-- mark is used to highlight  -->
+            <summary>Guess the <mark>number of hours </mark>  i code per day</summary>
+            <p>1 hour per day from <time datetime=8:00>8 am</time> to 9 am</p>
+        </details>
+       </aside> 
+    </ul>
 </body>
 
 </html>
